@@ -41,7 +41,8 @@ section {
   height: 800px;
   padding: 5%;
   padding-left: 24%;
-  background-color: white;
+  background-color: #333333;
+  color: #e5e4e2;
   display: inline-block;
 }
 
