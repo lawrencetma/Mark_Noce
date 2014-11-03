@@ -26,6 +26,8 @@ section {
   margin-left: 15%;
   margin-right: 15%;
   font-family: 'Gudea', sans-serif;
+  position: fixed;
+  z-index: -10;
 }
 
 .regular {
@@ -33,7 +35,7 @@ section {
 }
 
 .homepage-bottom {
-  margin-top: 35%;
+  margin-top: 60%;
   margin-bottom: -3%;
   width: 100%;
   height: 800px;
