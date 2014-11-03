@@ -17,15 +17,7 @@ window.onload = function() {
     ground.style.backgroundPosition = "0 " + groundparallax + "px";
 
     var clouds = document.getElementById('front');
-    var cloudsparallax = calcParallax(400, .5, posY);
+    var cloudsparallax = calcParallax(100, .5, posY);
     clouds.style.backgroundPosition = "0 " + cloudsparallax + "px";
   }
-
-  document.getElementById('text').onscroll = function() {
-    var posX = (this.scrollLeft) ? this.scrollLeft : this.pageXOffset;
-    var j = calcParallax(53, 16, posX);
-    console.log('scroll js: '+ j);
-    document.getElementById('text').style.backgroundPosition = j + "px 0";
-  }
-
 }
