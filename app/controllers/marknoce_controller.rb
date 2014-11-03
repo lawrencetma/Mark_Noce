@@ -15,4 +15,7 @@ class MarknoceController < ApplicationController
   def contact
   end
 
+  def email
+  end
+
 end
