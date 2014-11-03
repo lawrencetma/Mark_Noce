@@ -6,6 +6,6 @@
 - About
 - Books
 - Blog (connect with Blogger)
-<a href="http://nocestories.blogspot.com/">Mark Noce Blogspot</a>
+<a href="http://nocestories.blogspot.com/" target="_blank">Mark Noce Blogspot</a>
 - Contact (Email)
 - (Newsletter)
