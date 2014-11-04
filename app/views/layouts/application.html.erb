@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>MarkNoce</title>
+  <link rel="shortcut icon" href="/assets/marknoce.ico" type="image/x-icon" />
   <link href='http://fonts.googleapis.com/css?family=Uncial+Antiqua' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
@@ -14,10 +15,17 @@
   <script>
       function handleResponse(response) {
         console.log(response)
-        // document.getElementById("content").innerHTML += "<h1>" + response.title + "</h1>" + response.content;
+        var ready
+        ready = function() {
+          for(i=0; i<6; i++) {
+          document.getElementById("blogger").innerHTML += "<h1>" + response.items[i].title + "</h1>" + response.items[i].content + "<br>" + '<a href="' +response.items[i].url + '" target="_blank">Go to the Blog</a>';
+          };
+        };
+        $(document).ready(ready);
+        $(document).on('page:load', ready);
       }
   </script>
-  <script src="https://www.googleapis.com/blogger/v3/blogs/1980109953773848923?callback=handleResponse&key=AIzaSyBPO9bgsBJ4Iw2R2Pcj8JZWrOMejLUz5AA"></script>
+  <script src="https://www.googleapis.com/blogger/v3/blogs/8458581324926992168/posts?callback=handleResponse&key=AIzaSyBPO9bgsBJ4Iw2R2Pcj8JZWrOMejLUz5AA"></script>
   <%= csrf_meta_tags %>
 </head>
 <body id="ground">
