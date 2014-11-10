@@ -125,20 +125,21 @@ section {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 480px) {
+@media (max-width: 767px) {
     section {
       margin-top: 10%;
+      width: 100%;
     }
     .title {
-      font-size: 3em;
+      font-size: 2em;
       margin-top: 25%;
     }
     .profile-photo {
-      margin-top: 10%;
+      margin-top: 5%;
       float: left;
     }
     .homepage-bottom {
-      height: 100%;
+      height: 80%;
       font-size: 0.5em;
     }
     .about-text {
@@ -152,7 +153,11 @@ section {
       float: left;
     }
     #blogger {
-      width: 100%;
+      width: 90%;
+    }
+    #blogger img {
+      width: 90%;
+      height: 90%;
     }
 
 }
