@@ -6,14 +6,14 @@ body {
 }
 
 section {
-  margin-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 0 auto;
+  margin-top: 7%;
   padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: 700px;
-  width: 70%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom:2%;
+  max-height: 700px;
+  max-width: 950px;
   border-radius: 2px;
   background-color: #333333;
   color: #e5e4e2;
@@ -64,6 +64,10 @@ section {
   text-align: right;
 }
 
+.center {
+  text-align: center;
+}
+
 .profile-photo {
   width: 200px;
   height: 300px;
@@ -77,8 +81,7 @@ section {
   float: left;
   margin-right: 2%;
   height: 40%;
-  width: 50%;
-  font-size: 2em;
+  max-width: 600px;
 }
 
 .welcome-text a {
@@ -103,8 +106,7 @@ section {
 
 #blogger {
   width: 65%;
-  max-width: 90%;
-  float:left;
+  float: left;
 }
 
 .right-sidebar {
@@ -120,4 +122,37 @@ section {
   width: 100%;
   height: 230px;
   border-radius: 3px;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+    section {
+      margin-top: 10%;
+    }
+    .title {
+      font-size: 3em;
+      margin-top: 25%;
+    }
+    .profile-photo {
+      margin-top: 10%;
+      float: left;
+    }
+    .homepage-bottom {
+      height: 100%;
+      font-size: 0.5em;
+    }
+    .about-text {
+      width: 100%;
+      font-size: 1em;
+    }
+    .right-sidebar {
+      margin-top: 10%;
+      padding: 1%;
+      width: 80%;
+      float: left;
+    }
+    #blogger {
+      width: 100%;
+    }
+
 }

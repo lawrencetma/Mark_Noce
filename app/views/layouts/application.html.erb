@@ -18,7 +18,7 @@
         var ready
         ready = function() {
           for(i=0; i<6; i++) {
-          document.getElementById("blogger").innerHTML += "<h1>" + response.items[i].title + "</h1>" + response.items[i].content + "<br>" + '<a href="' +response.items[i].url + '" target="_blank">Go to the Blog</a>';
+          document.getElementById("blogger").innerHTML += "<h1>" + response.items[i].title + "</h1>" + response.items[i].content + "<br>" + '<div class="center">' + response.items[i].updated + "<br>" + '<a href="' +response.items[i].url + '" target="_blank">' + response.items[i].title + '</a></div>';
           };
         };
         $(document).ready(ready);
