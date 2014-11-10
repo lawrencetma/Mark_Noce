@@ -19,7 +19,7 @@ section {
   color: #e5e4e2;
   font-family: 'Quicksand', sans-serif;
   display: inline-block;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .top-title {
@@ -129,7 +129,7 @@ section {
     section {
       margin-top: 10%;
       width: 100%;
-      overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch;
     }
     .title {
       font-size: 2em;
