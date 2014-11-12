@@ -4,7 +4,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 1;
-                  opacity = 1 - (scrollTop/400)
+                  opacity = 1 - (scrollTop/1000)
                   $('#top-title').css('opacity', opacity);
             });
       } else if(screen.width > 480) {
@@ -12,7 +12,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 1;
-                  opacity = 1 - (scrollTop/50)
+                  opacity = 1 - (scrollTop/200)
                   $('#top-title').css('opacity', opacity);
             });
       } else {
@@ -20,7 +20,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 1;
-                  opacity = 1 - (scrollTop/20)
+                  opacity = 1 - (scrollTop/100)
                   $('#top-title').css('opacity', opacity);
             });
       }
