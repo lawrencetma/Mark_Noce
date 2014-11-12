@@ -43,7 +43,6 @@ body {
   margin-bottom: 5%;
   background-position: center center;
 }
-
 .top-title {
   margin-top: 7%;
   margin-left: 15%;
@@ -104,6 +103,7 @@ body {
 .welcome-text {
   float: left;
   margin-right: 2%;
+  margin-bottom: 17%;
   height: 40%;
   max-width: 600px;
 }
@@ -160,16 +160,50 @@ body {
       width: 100%;
     }
     .title {
-      font-size: 2em;
+      font-size: 4em;
       margin-top: 25%;
     }
-    .profile-photo {
-      margin-top: 5%;
-      float: left;
+    .welcome-text {
+      margin-bottom: 5%;
     }
     .homepage-bottom {
       height: 80%;
       font-size: 0.5em;
+    }
+    .about-text {
+      width: 100%;
+      font-size: 1em;
+    }
+    .right-sidebar {
+      margin-top: 10%;
+      padding: 1%;
+      float: left;
+    }
+    #blogger {
+      width: 90%;
+    }
+    #blogger img {
+      width: 90%;
+      height: 90%;
+    }
+
+}
+
+@media (max-width: 480px) {
+  .content {
+      margin-top: 10%;
+      width: 100%;
+    }
+    .title {
+      font-size: 2em;
+      margin-top: 25%;
+    }
+    .homepage-bottom {
+      height: 80%;
+      font-size: 0.5em;
+    }
+    .welcome-text {
+      margin-bottom: 22%;
     }
     .about-text {
       width: 100%;
