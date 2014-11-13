@@ -4,7 +4,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 1;
-                  opacity = 1 - (scrollTop/1000)
+                  opacity = 1 - (scrollTop/800)
                   $('#top-title').css('opacity', opacity);
             });
       } else if(screen.width > 480) {
@@ -24,5 +24,4 @@
                   $('#top-title').css('opacity', opacity);
             });
       }
-
   });
