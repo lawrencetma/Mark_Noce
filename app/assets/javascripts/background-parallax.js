@@ -3,7 +3,7 @@ $( document ).ready(function(){
   (function(){
 
     var parallax = document.querySelectorAll(".parallax"),
-        speed = -0.5;
+        speed = -0.7;
 
     window.onscroll = function(){
       [].slice.call(parallax).forEach(function(el,i){
