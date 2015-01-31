@@ -138,6 +138,20 @@
   height: 220px;
   border-radius: 3px;
 }
+
+.book_img {
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #121212;
+  margin-bottom: 10px;
+}
+
+#book_img1 {
+  margin-right: 10px;
+}
+
+.line {
+  border-bottom: thin solid white;
+}
 /* Mobile styles */
 /* Tablet */
 @media (max-width: 767px) {
