@@ -1,21 +1,22 @@
-$( document ).ready(function(){
 
-  (function(){
 
-    var parallax = document.querySelectorAll(".parallax"),
-        speed = -0.7;
+var effect = function(){
 
-    window.onscroll = function(){
-      [].slice.call(parallax).forEach(function(el,i){
+  var parallax = document.querySelectorAll(".parallax"),
+      speed = -0.7;
 
-        var windowYOffset = window.pageYOffset,
-            elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
+  window.onscroll = function(){
+    [].slice.call(parallax).forEach(function(el,i){
 
-        el.style.backgroundPosition = elBackgrounPos;
+      var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 
-      });
-    };
+      el.style.backgroundPosition = elBackgrounPos;
 
-  })();
+    });
+  };
 
-});
+};
+
+$(document).ready(effect);
+$(document).on('page:load', effect);
