@@ -64,6 +64,19 @@
   font-size: 7em;
   font-family: 'Uncial Antiqua', cursive;
 }
+.welcome-link {
+  padding-top: 5%;
+}
+.welcome-link a {
+  text-decoration:none;
+  background-color: #333333;
+  color: white;
+  padding: 1%;
+}
+.welcome-link a:hover {
+  background-color: white;
+  color: #333333;
+}
 .medium {
   font-size: 1.25em;
 }
