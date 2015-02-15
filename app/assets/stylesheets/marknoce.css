@@ -201,6 +201,9 @@
       width: 90%;
       height: 90%;
     }
+    .welcome-link {
+      display: none;
+    }
 }
 /*Mobile*/
 @media (max-width: 480px) {
@@ -231,5 +234,8 @@
     #blogger img {
       width: 90%;
       height: 90%;
+    }
+    .welcome-link {
+      display: none;
     }
 }
