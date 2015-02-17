@@ -51,7 +51,7 @@
   margin-top: 60%;
   margin-bottom: -3%;
   width: 100%;
-  min-height: 800px;
+  min-height: 850px;
   padding: 5%;
   padding-left: 20%;
   background-color: white;
@@ -63,6 +63,9 @@
 .title {
   font-size: 7em;
   font-family: 'Uncial Antiqua', cursive;
+}
+#welcome {
+  height: 50px;
 }
 .welcome-link {
   padding-top: 5%;
