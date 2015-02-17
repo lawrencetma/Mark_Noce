@@ -205,6 +205,9 @@
       margin-top: 10%;
       width: 100%;
     }
+    #welcome {
+      height: 0px;
+    }
     .title {
       font-size: 4em;
       margin-top: 25%;
@@ -238,36 +241,39 @@
   .content {
       margin-top: 10%;
       width: 100%;
-    }
-    .title {
-      font-size: 2em;
-      margin-top: 25%;
-    }
-    .homepage-bottom {
-      height: 80%;
-      font-size: 0.5em;
-    }
-    .about-text {
-      width: 100%;
-      font-size: 1em;
-    }
-    .right-sidebar {
-      margin-top: 10%;
-      padding: 1%;
-      float: left;
-    }
-    #blogger {
-      width: 90%;
-    }
-    #blogger img {
-      width: 90%;
-      height: 90%;
-    }
-    .welcome-link {
-      display: none;
-    }
-    .contact_img {
-      float: left;
-      margin-bottom: 15px;
-    }
+  }
+  #welcome {
+    height: 0px;
+  }
+  .title {
+    font-size: 2em;
+    margin-top: 25%;
+  }
+  .homepage-bottom {
+    height: 80%;
+    font-size: 0.5em;
+  }
+  .about-text {
+    width: 100%;
+    font-size: 1em;
+  }
+  .right-sidebar {
+    margin-top: 10%;
+    padding: 1%;
+    float: left;
+  }
+  #blogger {
+    width: 90%;
+  }
+  #blogger img {
+    width: 90%;
+    height: 90%;
+  }
+  .welcome-link {
+    display: none;
+  }
+  .contact_img {
+    float: left;
+    margin-bottom: 15px;
+  }
 }
