@@ -189,6 +189,12 @@
 .social-links a:hover {
   opacity: 1;
 }
+.contact_img {
+  width: 200px;
+  float: right;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #121212;
+}
 /* Mobile styles */
 /* Tablet */
 @media (max-width: 767px) {
@@ -256,5 +262,9 @@
     }
     .welcome-link {
       display: none;
+    }
+    .contact_img {
+      float: left;
+      margin-bottom: 15px;
     }
 }
