@@ -196,7 +196,7 @@
   width: 200px;
   float: right;
   border-radius: 3px;
-  box-shadow: 3px 3px 3px #121212;
+  box-shadow: 5px 5px 5px #121212;
 }
 /* Mobile styles */
 /* Tablet */
@@ -234,6 +234,12 @@
     }
     .welcome-link {
       display: none;
+    }
+    .contact_img_box {
+      width: 100%;
+    }
+    .links_box {
+      width: 100%;
     }
 }
 /*Mobile*/
@@ -273,7 +279,15 @@
     display: none;
   }
   .contact_img {
-    float: left;
+    float: none;
+    width: 250px;
+    margin-left: 5px;
     margin-bottom: 15px;
+  }
+  .contact_img_box {
+    min-width: 250px;
+  }
+  .links_box {
+    min-width: 250px;
   }
 }
