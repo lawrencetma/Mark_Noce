@@ -200,7 +200,7 @@
 }
 /* Mobile styles */
 /* Tablet */
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .content {
       margin-top: 10%;
       width: 100%;
@@ -223,7 +223,15 @@
     .right-sidebar {
       margin-top: 10%;
       padding: 1%;
+      width: 100%;
+      float: none;
+      display: inline-block;
+      border: none;
+    }
+    .google-plus {
       float: left;
+      max-width: 250px;
+      margin-right: 25px;
     }
     #blogger {
       width: 90%;
