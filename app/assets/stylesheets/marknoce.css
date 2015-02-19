@@ -200,7 +200,7 @@
 }
 /* Mobile styles */
 /* Tablet */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .content {
       margin-top: 10%;
       width: 100%;
