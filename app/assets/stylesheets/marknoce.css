@@ -170,6 +170,12 @@
   margin-right: 10px;
 }
 
+#long_defeat_img {
+  float: right;
+  width: 250px;
+  margin-left: 15px;
+}
+
 .line {
   border-bottom: thin solid white;
 }
@@ -233,6 +239,10 @@
       max-width: 250px;
       margin-right: 25px;
     }
+    #long_defeat_img {
+      width: 300px;
+      margin-left: 15px;
+    }
     #blogger {
       width: 90%;
     }
@@ -282,6 +292,15 @@
   #blogger img {
     width: 90%;
     height: 90%;
+  }
+  #book_img1 {
+    width: 90%;
+    margin-right: 10px;
+  }
+  #long_defeat_img {
+    float: none;
+    width: 90%;
+    margin-left: 10px;
   }
   .welcome-link {
     display: none;
