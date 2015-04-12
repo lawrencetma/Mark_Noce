@@ -7,7 +7,7 @@
   padding-bottom:2%;
   max-width: 950px;
   border-radius: 2px;
-  background-color: #333333;
+  background-color: rgba(30,30,30,0.9);
   color: #e5e4e2;
   font-family: 'Quicksand', sans-serif;
   display: inline-block;
@@ -145,6 +145,20 @@
   width: 65%;
   float: left;
 }
+#blogger h1 {
+  background-color: #36648B;
+  color: #E0E0E0;
+  padding: 1%;
+}
+#blogger h1:hover {
+  background-color: #A4D3EE;
+  color: #333333;
+  text-decoration: none;
+}
+#blogger a {
+  text-decoration: none;
+}
+
 .right-sidebar {
   margin-top: 10%;
   margin: 0 auto;
