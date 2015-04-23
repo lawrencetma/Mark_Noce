@@ -145,16 +145,7 @@
   width: 65%;
   float: left;
 }
-#blogger h1 {
-  background-color: #36648B;
-  color: #E0E0E0;
-  padding: 1%;
-}
-#blogger h1:hover {
-  background-color: #A4D3EE;
-  color: #333333;
-  text-decoration: none;
-}
+
 #blogger a {
   text-decoration: none;
 }
