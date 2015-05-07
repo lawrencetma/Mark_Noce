@@ -165,6 +165,14 @@
   border-radius: 3px;
 }
 
+.blogFooter {
+  padding: 50px;
+  padding-left:250px;
+  max-width: 950px;
+  background-color: rgba(30,30,30,0.9);
+  font-size: 1.5em;
+}
+
 .book_img {
   border-radius: 3px;
   box-shadow: 3px 3px 3px #121212;
