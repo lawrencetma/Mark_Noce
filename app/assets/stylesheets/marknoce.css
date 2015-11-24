@@ -13,21 +13,21 @@
   display: inline-block;
 }
 .background {
-  background-image: url('castle.jpg');
+  background-image: url('foggyforrest.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
 .background-static {
-  background-image: url('castle.jpg');
+  background-image: url('foggyforrest.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px
 }
 .parallax {
-  background-image: url('castle.jpg');
+  background-image: url('foggyforrest.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: none;
@@ -38,11 +38,24 @@
 }
 .top-title {
   position: fixed;
+  display: inline-block;
   width: 100%;
   margin-top: 5%;
   padding-right: 3%;
-  font-family: 'Quicksand', sans-serif;  color: #e7e6dd;
   z-index: 0;
+}
+.top-title-text {
+  margin-top: 20%;
+  font-family: 'Quicksand', sans-serif;  color: #e5e4e2;
+  background-color: rgba(30,30,30,0.9);
+}
+.top-title img {
+  width: 35%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 2%;
+  box-shadow: 5px 5px 5px black;
+  float: left;
 }
 .regular {
   font-family: 'Quicksand', sans-serif;
@@ -68,7 +81,7 @@
   height: 50px;
 }
 .welcome-link {
-  padding-top: 5%;
+  padding-top: 2%;
 }
 .welcome-link a {
   text-decoration:none;
