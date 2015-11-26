@@ -7,7 +7,13 @@ function adjustStyle(width) {
   }
 }
 
-$(function() {
+$(document).ready(function() {
+  adjustStyle($(this).width());
+  $(window).resize(function() {
+    adjustStyle($(this).width());
+  });
+});
+$(document).on('page:load', function() {
   adjustStyle($(this).width());
   $(window).resize(function() {
     adjustStyle($(this).width());
