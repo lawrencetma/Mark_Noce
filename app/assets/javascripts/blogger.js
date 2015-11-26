@@ -1,5 +1,4 @@
 function handleResponse(response) {
-  console.log(response);
   var ready, counter = 0;
   ready = function() {
     if(document.getElementById("blogger")){
@@ -9,7 +8,6 @@ function handleResponse(response) {
     };
     $("#blogNext").on('click', function(e){
       e.preventDefault();
-      console.log('boo');
       counter += 6;
       $(".blogFooter").remove();
       ready();
