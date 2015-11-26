@@ -37,7 +37,6 @@
   background-position: center center;
 }
 .top-title {
-  position: fixed;
   display: inline-block;
   width: 100%;
   margin-top: 5%;
@@ -61,10 +60,10 @@
   font-family: 'Quicksand', sans-serif;
 }
 .homepage-bottom {
-  margin-top: 60%;
+  margin-top: 5%;
   margin-bottom: -3%;
   width: 100%;
-  min-height: 850px;
+  min-height: 700px;
   padding: 5%;
   padding-left: 20%;
   background-color: white;
@@ -126,8 +125,6 @@
 .welcome-text {
   float: left;
   margin-right: 2%;
-  margin-bottom: 50px;
-  height: 40%;
   max-width: 600px;
 }
 .welcome-text a {
@@ -244,6 +241,9 @@
       font-size: 4em;
       margin-top: 25%;
     }
+    .top-title {
+      margin-top: 10%;
+    }
     .homepage-bottom {
       height: 80%;
       font-size: 0.5em;
@@ -298,6 +298,9 @@
   .title {
     font-size: 2em;
     margin-top: 25%;
+  }
+  .top-title {
+    margin-top: 15%;
   }
   .homepage-bottom {
     height: 80%;
