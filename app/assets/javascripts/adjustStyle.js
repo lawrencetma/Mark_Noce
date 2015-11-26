@@ -1,6 +1,6 @@
 function adjustStyle(width) {
   width = parseInt(width);
-  if (width < 1000) {
+  if (width <= 1024) {
     $("#homepage-background").addClass('background').removeClass('parallax');
   } else {
      $("#homepage-background").addClass('parallax').removeClass('background');
