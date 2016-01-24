@@ -266,6 +266,9 @@
       max-width: 250px;
       margin-right: 25px;
     }
+    .book-ad {
+      display: none;
+    }
     #long_defeat_img {
       width: 300px;
       margin-left: 15px;
