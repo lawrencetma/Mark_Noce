@@ -87,6 +87,7 @@
   background-color: #333333;
   color: white;
   padding: 1%;
+  box-shadow: 1px 1px 1px 1px white;
 }
 .welcome-link a:hover {
   background-color: white;
@@ -128,7 +129,7 @@
   max-width: 600px;
 }
 .welcome-text a {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .welcome-text a:hover {
   opacity: 1;
@@ -139,6 +140,17 @@
   height: 40%;
   width: 70%;
   font-size: 1.5em;
+}
+#newsletter_link {
+  margin-top: 3%;
+}
+#newsletter_link a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 255, 0.9);
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #121212;
 }
 .floaters {
   display: inline-block;
