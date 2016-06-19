@@ -11,6 +11,7 @@
   color: #e5e4e2;
   font-family: 'Quicksand', sans-serif;
   display: inline-block;
+  min-width: 900px;
 }
 .background {
   background-image: url('foggyforrest.jpg');
@@ -24,7 +25,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px
+  height: 900px;
 }
 .parallax {
   background-image: url('foggyforrest.jpg');
@@ -87,7 +88,7 @@
   background-color: #333333;
   color: white;
   padding: 1%;
-  box-shadow: 1px 1px 1px 1px white;
+  box-shadow: 1px 1px 1px 1bpx white;
 }
 .welcome-link a:hover {
   background-color: white;
@@ -163,6 +164,10 @@
   float: right;
 }
 
+.margin-bottom {
+  margin-bottom: 7%;
+}
+
 #blogger {
   width: 65%;
   float: left;
@@ -211,6 +216,12 @@
   margin-left: 15px;
 }
 
+#appearances_book_art {
+  float: right;
+  width: 300px;
+  margin-left:15px;
+}
+
 .line {
   border-bottom: thin solid white;
 }
@@ -245,6 +256,7 @@
     .content {
       margin-top: 10%;
       width: 100%;
+      min-width: 0;
     }
     #welcome {
       height: 0px;
@@ -300,6 +312,9 @@
     }
     .links_box {
       width: 100%;
+    }
+    #appearances_book_art {
+      display: none;
     }
 }
 /*Mobile*/
