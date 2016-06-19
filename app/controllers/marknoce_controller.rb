@@ -12,6 +12,9 @@ class MarknoceController < ApplicationController
   def blog
   end
 
+  def appearances
+  end
+
   def contact
   end
 
