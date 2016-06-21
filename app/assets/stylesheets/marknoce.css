@@ -21,11 +21,13 @@
   width: 100%;
 }
 .background-static {
+  position: absolute;
   background-image: url('foggyforrest.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  min-height: 100%;
+  min-width: 100%;
 }
 .parallax {
   background-image: url('foggyforrest.jpg');
