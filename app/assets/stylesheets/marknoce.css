@@ -87,10 +87,11 @@
 }
 .welcome-link a {
   text-decoration:none;
-  background-color: #333333;
+  background-color: #36648B;
   color: white;
   padding: 1%;
-  box-shadow: 1px 1px 1px 1bpx white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #333333;
 }
 .welcome-link a:hover {
   background-color: white;
