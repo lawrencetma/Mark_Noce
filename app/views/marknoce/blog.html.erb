@@ -1,3 +1,4 @@
+<%= render partial: "socialnav" %>
 <div class="background">
   <div class="container">
     <section class="floaters content">
@@ -14,9 +15,15 @@
         </div>
         <div class="google-plus book-ad">
           <img class="book_img" src="assets/BetweenTwoFires.jpg" width="236"/>
-          <p>
-            <a href="http://www.amazon.com/Between-Two-Fires-Mark-Noce/dp/125007262X" target="_blank">Now Available to Pre-order!</a>
-          </p>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Pre-order it Now!</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="http://www.amazon.com/Between-Two-Fires-Mark-Noce/dp/125007262X" target="_blank">Amazon</a>
+              <a href="http://www.barnesandnoble.com/w/between-two-fires-mark-noce/1122537645?ean=9781250072627" target="_blank">Barnes and Noble</a>
+              <a href="https://itunes.apple.com/us/book/between-two-fires/id1080308282?mt=11" target="_blank">iTunes</a>
+              <a href="http://www.indiebound.org/book/9781250072627" target="_blank">Indiebound</a>
+            </div>
+          </div>
         </div>
       </div>
       <div id="blogger">

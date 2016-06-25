@@ -220,9 +220,15 @@
 }
 
 #appearances_book_art {
-  float: right;
+  float: left;
   width: 300px;
-  margin-left:15px;
+}
+
+.appearances-side-panel {
+  width: 300px;
+  float: right;
+  display: inline-block;
+  text-align: center;
 }
 
 .line {
