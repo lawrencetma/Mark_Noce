@@ -1,0 +1,31 @@
+.side-nav {
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 0;
+  background-color: #9d9d9d;
+  text-align: right;
+  z-index: 1;
+}
+.side-nav-btn {
+  width: 100%;
+  background-color: #9d9d9d;
+  text-align: right;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  transition: width 0.3s;
+}
+a .side-nav-btn {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+.side-nav-btn:hover {
+  background: #36648B;
+  width: 150%;
+  border-radius: 3px;
+}
+
+@media (max-width: 800px) {
+  .side-nav {
+    display: none;
+  }
+}
