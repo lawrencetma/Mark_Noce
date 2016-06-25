@@ -24,8 +24,27 @@ a .side-nav-btn {
   border-radius: 3px;
 }
 
+.bottom-nav {
+   position:fixed;
+   display: inline-block;
+   left: 50%;
+   bottom: 0px;
+   margin-left: -100px;
+   background-color: #9d9d9d;
+   z-index: 1;
+   display: none;
+}
+
+.bottom-nav-btn {
+  float: left;
+}
+
 @media (max-width: 800px) {
   .side-nav {
     display: none;
+  }
+
+  .bottom-nav {
+    display: block;
   }
 }
