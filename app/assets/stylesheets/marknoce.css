@@ -1,5 +1,6 @@
 .content {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  /*margin-left: 5%;*/
   margin-top: 7%;
   padding-top: 2%;
   padding-left: 3%;
@@ -12,6 +13,7 @@
   font-family: 'Quicksand', sans-serif;
   display: inline-block;
   min-width: 900px;
+  word-wrap: break-word;
 }
 .background {
   background-image: url('foggyforrest.jpg');
@@ -259,9 +261,6 @@
   border-radius: 3px;
   box-shadow: 5px 5px 5px #121212;
 }
-.mobile-dropdown-btn {
-    display: none;
-}
 /* Mobile styles */
 /* Tablet */
 @media (max-width: 1000px) {
@@ -335,9 +334,6 @@
 }
 /*Mobile*/
 @media (max-width: 480px) {
-  .mobile-dropdown-btn {
-    display: block;
-  }
   .mobile-center {
     text-align: center;
     margin-left: -20px;
