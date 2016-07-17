@@ -99,6 +99,24 @@
   background-color: white;
   color: #333333;
 }
+#quote-slideshow {
+  padding-top: 1%;
+  float:left;
+  display: inline-block;
+  margin-left: -60%;
+  width: 250px;
+}
+#quote-slideshow p {
+  position: absolute;
+  width: 250px;
+}
+#quote-slideshow p:nth-child(2),
+#quote-slideshow p:nth-child(3) {
+  display: none;
+}
+.quote {
+  font-size: 1.2em;
+}
 .medium {
   font-size: 1.25em;
 }
@@ -157,6 +175,10 @@
   padding: 2%;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #121212;
+}
+.thunderclap {
+  max-width: 291px;
+  max-height: 547px;
 }
 .floaters {
   display: inline-block;
@@ -316,6 +338,9 @@
       height: 90%;
     }
     .welcome-link {
+      display: none;
+    }
+    #quote-slideshow {
       display: none;
     }
     .contact_img_box {
