@@ -303,7 +303,7 @@
     }
     .homepage-bottom {
       height: 80%;
-      font-size: 0.5em;
+      font-size: 0.75em;
       min-height: 700px;
     }
     .about-text {
@@ -382,11 +382,12 @@
   }
   .homepage-bottom {
     height: 80%;
-    font-size: 0.5em;
+    font-size: 0.7 em;
+    padding-left: 5%;
   }
   .about-text {
     width: 100%;
-    font-size: 1em;
+    font-size: 1.25em;
   }
   .right-sidebar {
     margin-top: 10%;
@@ -423,5 +424,8 @@
   }
   .links_box {
     min-width: 250px;
+  }
+  .dropbtn {
+    margin-top: 2px;
   }
 }
