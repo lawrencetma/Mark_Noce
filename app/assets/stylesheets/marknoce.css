@@ -319,6 +319,11 @@
   border-radius: 3px;
   box-shadow: 5px 5px 5px #121212;
 }
+.banner {
+  margin:15px;
+  text-align: center;
+  max-width: 100%;
+}
 /* Mobile styles */
 /* Tablet */
 @media (max-width: 1000px) {
