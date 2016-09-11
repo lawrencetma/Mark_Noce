@@ -43,8 +43,10 @@ a .side-nav-btn {
   .side-nav {
     display: none;
   }
-
   .bottom-nav {
     display: block;
+  }
+  .bottom-banner {
+    display: none;
   }
 }
