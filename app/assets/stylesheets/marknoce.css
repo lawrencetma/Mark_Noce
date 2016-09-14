@@ -325,19 +325,10 @@
   max-width: 100%;
 }
 .bottom-banner {
-   position:fixed;
-   display: inline-block;
-   left: 50%;
-   bottom: 0px;
-   margin-left: -400px;
-   z-index: 1;
-   height: 40px;
-   -webkit-transition: height 0.5s;
-   -moz-transition: height 0.5s;
-   transition: height 0.5s;
-}
-.bottom-banner:hover {
-  height: 90px;
+  text-align: center;
+   margin-left: -150px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 /* Mobile styles */
 /* Tablet */
@@ -413,7 +404,10 @@
       font-size: 14px;
     }
     .dropdown-content {
-        margin-top: 0px;
+      margin-top: 0px;
+    }
+    .bottom-banner {
+      margin-left: 0px;
     }
 }
 /*Mobile*/
