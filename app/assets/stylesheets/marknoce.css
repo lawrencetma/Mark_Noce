@@ -273,10 +273,16 @@
   margin-right: 10px;
 }
 
-#long_defeat_img {
-  float: right;
+.pre-order a {
+  text-decoration:none;
+  background-color: #36648B;
+  color: #E0E0E0;
+  padding: 15px;
+}
+
+#dark-winds-img {
   width: 250px;
-  margin-left: 15px;
+  float: right;
 }
 
 #appearances_book_art {
