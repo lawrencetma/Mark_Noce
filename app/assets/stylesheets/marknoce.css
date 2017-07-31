@@ -16,7 +16,7 @@
   word-wrap: break-word;
 }
 .background {
-  background-image: url('foggyforrest.jpg');
+  background-image: url('mark-coastline.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
 }
 .background-static {
   position: absolute;
-  background-image: url('foggyforrest.jpg');
+  background-image: url('mark-coastline.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +32,7 @@
   min-width: 100%;
 }
 .parallax {
-  background-image: url('foggyforrest.jpg');
+  background-image: url('mark-coastline.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: none;
@@ -45,10 +45,9 @@
   display: inline-block;
   width: 100%;
   margin-top: 5%;
-  padding-right: 3%;
   z-index: 0;
 }
-.top-title img {
+.top-title .coverImg {
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 4s; /* Firefox < 16 */
    -ms-animation: fadein 4s; /* Internet Explorer */
@@ -85,10 +84,11 @@
 }
 .top-title-text {
   margin-top: 20%;
+  height: 190px;
   font-family: 'Quicksand', sans-serif;  color: #e5e4e2;
   background-color: rgba(30,30,30,0.9);
 }
-.top-title img {
+.top-title .coverImg {
   width: 35%;
   text-align: center;
   margin-left: 30%;
@@ -125,9 +125,9 @@
 .welcome-link a {
   text-decoration:none;
   background-color: #36648B;
+  font-size: 22px;
   color: white;
   padding: 1%;
-  border-radius: 5px;
   box-shadow: 2px 2px 2px #333333;
 }
 .welcome-link a:hover {
@@ -136,9 +136,8 @@
 }
 #quote-slideshow {
   padding-top: 1%;
-  float:left;
   display: inline-block;
-  margin-left: -60%;
+  margin-left: 11%;
   width: 250px;
 }
 #quote-slideshow p {
@@ -166,6 +165,15 @@
 }
 .center {
   text-align: center;
+}
+.first-book-img {
+  float: left;
+  margin-left: -57%;
+  margin-top: -5%;
+  width: 250px;
+}
+.first-book-img img {
+  box-shadow: 5px 5px 5px black;
 }
 .profile-photo {
   width: 200px;
@@ -353,6 +361,7 @@
     }
     .top-title {
       margin-top: 10%;
+      display: inline-block;
     }
     .homepage-bottom {
       height: 80%;
@@ -395,6 +404,12 @@
     }
     #quote-slideshow {
       display: none;
+    }
+    .first-book-img {
+      display: none;
+    }
+    .top-title-text {
+      height: 80px;
     }
     .contact_img_box {
       width: 100%;
